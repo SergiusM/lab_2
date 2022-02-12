@@ -96,6 +96,7 @@ int main()
 	{
 		std::cout << mas1[i] << " ";
 	}
+	std::cout << std::endl;
 	for (int i = 0; i < N; i++)
 	{
 		std::cout << mas2[i] << " ";
