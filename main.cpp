@@ -79,11 +79,9 @@ int main()
 	for (int i = 0; i < N; i++)
 	{
 		mas1[i] = rand();
-	}
-	for (int i = 0; i < N; i++)
-	{
 		mas2[i] = mas1[i];
 	}
+	
 	Timer a;
 	QuickSort(0, N - 1, mas1);
 	std::cout << "Time elapsed: " << a.elapsed() << std::endl;
